@@ -3,6 +3,7 @@
     background-color: #F1FAEE ;
 }
 
+/* Index */
 .offcanvas-header {
     padding-bottom: 0;
 }
@@ -10,6 +11,7 @@ body {
     background-color: #A8DADC;
 }
 
+/* Width for larger screens */
 @media screen and (min-width: 2000px) 
  {img {
     height: 1000px;
