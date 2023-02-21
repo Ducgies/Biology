@@ -1,54 +1,147 @@
 .navbar {
     padding: 0;
-    background-color: #F1FAEE ;
+    background-color: #F1FAEE;
 }
 
 /* Index */
 .offcanvas-header {
     padding-bottom: 0;
 }
+
 body {
     background-color: #457B9D;
 }
 
 /* Width for larger screens */
-@media screen and (min-width: 2000px) 
- {img {
-    height: 1000px;
+@media screen and (min-width: 2000px) {
+    img {
+        height: 1000px;
+    }
 }
- }
- /* Title */
+
+.all-items {
+    font-family: 'Barlow', sans-serif;
+}
+
+/* Title */
 
 .about-title {
     background-color: #A8DADC;
     padding: 80px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; 
-
 }
+
 .about-title h1 {
+    max-width: max-content;
     padding: 10px 0 10px;
-    color:white;
-    border-color: white;
+    color: white;
     font-family: 'Barlow', sans-serif;
     font-size: 5rem;
     text-align: center;
-    width: 20rem;
-    height: 10rem;
-}
-.about-title h1:nth-of-type(1) {
-    border-top: solid;
-}
-
-.about-title h1:nth-of-type(2) {
+    border-color: white;
     border-top: solid;
     border-bottom: solid;
 }
 
-@media screen and (min-width: 679px ) {
-    .about-title h1 {
-    border-top: solid;
-    border-bottom: solid;
-    }
-    }
+/* Description */
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.description h2 {
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    border: white dotted;
+}
+
+.description p {
+    color: #A8DADC;
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+/* About me div*/
+
+
+
+
+.about-me {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me h2 {
+    color: white;
+    text-align: center;
+    border: white dotted;
+    padding: 10px;
+}
+
+/* Div that contains the two circles */
+.circles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.circles .socials {
+    color: #457B9D;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    box-sizing: border-box;
+    width: 50rem;
+    height: 50rem;
+}
+
+.circles .picture {
+    color: #457B9D;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    box-sizing: border-box;
+    width: 50rem;
+    height: 50rem;
+}
+
+.picture p {
+    width: 440px;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    height: 60rem;
+    width: auto
+}
+
+/* Socials list */
+
+h3 {
+    font-size: 45px;
+}
+
+ul {
+    font-size: 25px;
+    list-style-type: none;
+    list-style: none;
+    padding-left: 0;
+}
