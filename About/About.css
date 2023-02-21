@@ -195,4 +195,11 @@ ul {
         width: 50px;
         height: auto;
     }
+
+    h3 {
+        font-size: 22.5px;
+    }
+    ul {
+        font-size: 12.5px;
+    }
 }
