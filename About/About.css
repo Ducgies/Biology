@@ -14,19 +14,22 @@ body {
 
 .all-items {
     font-family: 'Barlow', sans-serif;
+    padding: 0;
+
 }
 
 /* Title */
 
-.about-title {
+.container-fluid.about {
     background-color: #A8DADC;
-    padding: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 0;
     display: flex;
     justify-content: center;
 }
 
-.about-title h1 {
-    max-width: max-content;
+.container-fluid.about h1 {
     padding: 10px 0 10px;
     color: white;
     font-family: 'Barlow', sans-serif;
@@ -81,6 +84,7 @@ body {
 }
 
 /* Div that contains the two circles */
+
 .circles {
     display: flex;
     flex-direction: row;
@@ -88,7 +92,7 @@ body {
     align-items: center;
 }
 
-.circles .socials {
+.container-sm.socials {
     color: #457B9D;
     background-color: white;
     border-radius: 50%;
@@ -97,12 +101,12 @@ body {
     justify-content: space-evenly;
     padding: 50px;
     box-sizing: border-box;
-    width: 1000px;
-    height: auto;
-    flex-shrink: 0;
+    margin-left: 0;
+    margin-right: 0;
+    aspect-ratio: 1 / 1;
 }
 
-.circles .picture {
+.container-sm.pictures {
     color: #457B9D;
     background-color: white;
     border-radius: 50%;
@@ -111,29 +115,23 @@ body {
     justify-content: space-evenly;
     padding: 50px;
     box-sizing: border-box;
-    width: 1000px;
-    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    aspect-ratio: 1 / 1;
 }
 
-.picture p {
+
+.pictures p {
     width: 440px;
-    font-size: 20px;
+    font-size: 42px;
     margin: 0;
     text-align: center;
 }
 
-
-
-.socials img {
-    height: 60rem;
+.circles img {
+    height: 1000px;
 }
 
-img {
-    height: auto;
-    width: auto;
-    max-height: 60rem;
-    width: auto
-}
 /* Socials list */
 
 h3 {
@@ -145,4 +143,51 @@ ul {
     list-style-type: none;
     list-style: none;
     padding-left: 0;
+}
+
+@media screen and (max-width: 2375px) {
+    .container-fluid.socials {
+        height: 500px;
+        width: 500px;
+    }
+
+    .container-fluid.pictures {
+        height: 500px;
+        width: 500px;
+    }
+
+    .pictures p {
+        font-size: 30px;
+    }
+
+    .circles img {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 1525px) {
+
+    .circles {
+        flex-direction: column;
+    }
+
+    .pictures p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .circles img {
+        height: 250px;
+    }
+
+    .pictures p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .pictures p {
+        font-size: 10px;
+    }
 }
