@@ -84,7 +84,7 @@ body {
 .circles {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -97,8 +97,9 @@ body {
     justify-content: space-evenly;
     padding: 50px;
     box-sizing: border-box;
-    width: 50rem;
-    height: 50rem;
+    width: 1000px;
+    height: auto;
+    flex-shrink: 0;
 }
 
 .circles .picture {
@@ -110,8 +111,8 @@ body {
     justify-content: space-evenly;
     padding: 50px;
     box-sizing: border-box;
-    width: 50rem;
-    height: 50rem;
+    width: 1000px;
+    height: auto;
 }
 
 .picture p {
@@ -121,11 +122,18 @@ body {
     text-align: center;
 }
 
-img {
+
+
+.socials img {
     height: 60rem;
-    width: auto
 }
 
+img {
+    height: auto;
+    width: auto;
+    max-height: 60rem;
+    width: auto
+}
 /* Socials list */
 
 h3 {
