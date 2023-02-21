@@ -145,6 +145,8 @@ ul {
     padding-left: 0;
 }
 
+/* Media queries */
+
 @media screen and (max-width: 2375px) {
     .container-fluid.socials {
         height: 500px;
@@ -175,21 +177,22 @@ ul {
 @media screen and (max-width: 980px) {
     .circles img {
         height: 250px;
-    } 
+    }
 
     .pictures p {
         font-size: 15px;
     }
-    
+
 
 }
 
 @media screen and (max-width: 390px) {
     .pictures p {
         font-size: 10px;
-    }  .circles img {
+    }
+
+    .circles img {
         width: 50px;
         height: auto;
     }
 }
-
