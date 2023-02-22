@@ -175,3 +175,10 @@ body {
         font-size: 1.2vw;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .circles img {
+        max-height: 50%;
+        max-width: 50%;
+    }    
+}
