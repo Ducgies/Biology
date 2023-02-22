@@ -137,7 +137,7 @@ body {
 
 /* Socials list */
 
-h3 {
+.links h3 {
     font-size: 3vw;
 }
 
@@ -156,7 +156,16 @@ h3 {
     }
 
     .pictures p {
-        font-size: 2.5vw;
+        font-size: 3vw;
+    }
+
+    .links h3 {
+        font-size: 6.5vw;
+
+    }
+
+    .links ul {
+        font-size: 4vw;
     }
 }
 
