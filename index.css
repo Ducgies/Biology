@@ -13,7 +13,7 @@ body {
 
 /* Width for larger screens */
 @media screen and (min-width: 2000px) 
- {img {
+ { .carousel-inner img {
     height: 1000px;
 }
  }
