@@ -180,5 +180,20 @@ body {
     .circles img {
         max-height: 25%;
         max-width: 25%;
+
     }    
+
+    .pictures p {
+        font-size: 0.8vw; }
+    
+        .links h3 {
+            font-size: 2vw;
+    
+        }
+    
+        .links ul {
+            font-size: 2vw;
+        }
+    
+
 }
