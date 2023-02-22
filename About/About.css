@@ -88,7 +88,6 @@ body {
 .circles {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -133,6 +132,8 @@ body {
     max-height: 50%;
     max-width: 50%;
 }
+
+
 
 /* Socials list */
 
