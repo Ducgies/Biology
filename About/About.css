@@ -175,26 +175,4 @@ body {
         font-size: 1.2vw;
     }
 }
-
-@media screen and (max-width: 1000px) {
-    .circles img {
-        max-height: 25%;
-        max-width: 25%;
-
-    }    
-
-    /* This is the testing center */
-    .pictures p {
-        font-size: 0.8vw; }
-    
-        .links h3 {
-            font-size: 2vw;
-    
-        }
-    
-        .links ul {
-            font-size: 2vw;
-        }
-    
-
-}
+  
