@@ -158,18 +158,8 @@ svg {
         flex-direction: column;
     }
 
-    .pictures {
-        width: 90%;
-        height: auto;
-    }
-
-    .socials {
-        width: 90%;
-        height: auto;
-    }
-
     .pictures p {
-        font-size: 2.5vw;
+        font-size: 1.6vw;
     }
 
     .links h3 {
