@@ -89,7 +89,6 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
 }
 
 .socials {
@@ -100,7 +99,6 @@ body {
     align-items: center;
     justify-content: space-evenly;
     padding: 50px;
-    box-sizing: border-box;
     aspect-ratio: 1 / 1;
     height: 100%;
     width: 50%;
@@ -116,7 +114,6 @@ body {
     align-items: center;
     justify-content: space-evenly;
     padding: 50px;
-    box-sizing: border-box;
     aspect-ratio: 1 / 1;
     width: 50%;
     margin: 5%;
