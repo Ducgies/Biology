@@ -128,9 +128,10 @@ body {
 }
 
 .circles img {
-    max-height: 50%;
-    max-width: 50%;
+    max-height: 100%;
 }
+
+
 
 svg {
     width: 50px;
@@ -139,6 +140,10 @@ svg {
 
 
 /* Socials list */
+
+.links {
+    margin-left: 10%;
+}
 
 .links h3 {
     font-size: 3vw;
@@ -154,6 +159,11 @@ svg {
 /* Media queries */
 @media screen and (max-width: 1525px) {
 
+
+    .pictures img, .socials img {
+    max-height: 100%;
+    max-width: 50%;
+}
     .circles {
         flex-direction: column;
     }
@@ -163,7 +173,7 @@ svg {
     }
 
     .links h3 {
-        font-size: 5vw;
+        font-size: 4.0vw;
 
     }
 
