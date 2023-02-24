@@ -92,7 +92,7 @@ body {
     justify-content: space-evenly;
 }
 
-.container-sm.socials {
+.container.socials {
     color: #457B9D;
     background-color: white;
     border-radius: 50%;
@@ -106,7 +106,7 @@ body {
     aspect-ratio: 1 / 1;
 }
 
-.container-sm.pictures {
+.container.pictures {
     color: #457B9D;
     background-color: white;
     border-radius: 50%;
