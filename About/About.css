@@ -136,6 +136,10 @@ body {
     max-width: 50%;
 }
 
+svg {
+    width: 50px;
+    height: 50px;
+}
 
 
 /* Socials list */
@@ -169,7 +173,7 @@ body {
     }
 
     .pictures p {
-        font-size: 1.5vw;
+        font-size: 2.5vw;
     }
 
     .links h3 {
@@ -179,6 +183,11 @@ body {
 
     .links ul {
         font-size: 4vw;
+    }
+
+    svg {
+        width: 10%;
+        height: 10%;
     }
 }
 
