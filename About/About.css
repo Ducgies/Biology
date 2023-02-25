@@ -1,3 +1,4 @@
+/* Navbar */
 .navbar {
     padding: 0;
     background-color: #F1FAEE;
@@ -8,14 +9,15 @@
     padding-bottom: 0;
 }
 
+/* Body */
 body {
     background-color: #457B9D;
+    font-family: 'Barlow', sans-serif;
 }
 
-.all-items {
-    font-family: 'Barlow', sans-serif;
-    padding: 0;
-
+/* Formatting excluding navbar */
+.itemsBelownav {
+    text-align: center;
 }
 
 /* Title */
@@ -32,99 +34,39 @@ body {
 .container-fluid.about h1 {
     padding: 10px 0 10px;
     color: white;
-    font-family: 'Barlow', sans-serif;
     font-size: 5rem;
-    text-align: center;
     border-color: white;
-    border-top: solid;
-    border-bottom: solid;
+    border-style: solid none solid none;
 }
 
 /* Description */
 
-.description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 40px;
-}
-
-.description h2 {
+h2 {
     color: white;
     width: fit-content;
     padding: 10px;
     border: white dotted;
 }
 
+.description,
+.about-me,
+.circles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
 .description p {
     color: #A8DADC;
     font-size: 20px;
     width: 50%;
-    text-align: center;
-}
-
-/* About me div*/
-
-
-
-
-.about-me {
-    padding-top: 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.about-me h2 {
-    color: white;
-    text-align: center;
-    border: white dotted;
-    padding: 10px;
 }
 
 /* Div that contains the two circles */
 
 .circles {
-    display: flex;
     flex-direction: row;
-    align-items: center;
-}
-
-.socials {
-    color: #457B9D;
-    background-color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    aspect-ratio: 1 / 1;
-    height: 100%;
-    width: 50%;
-    margin: 5%;
-}
-
-.pictures {
-    color: #457B9D;
-    background-color: white;
-    border-radius: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    aspect-ratio: 1 / 1;
-    width: 50%;
-    margin: 5%;
-}
-
-
-.pictures p {
-    font-size: 1.2vw;
-    margin: 0;
-    text-align: center;
-    max-height: 50%;
-    max-width: 50%;
-    padding: 5%;
 }
 
 .circles img {
@@ -132,7 +74,27 @@ body {
     width: 50%;
 }
 
+.socials,
+.vioDescription {
+    color: #457B9D;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 / 1;
+    height: 100%;
+    width: 50%;
+    margin: 5%;
+}
 
+.vioDescription p {
+    font-size: 1.2vw;
+    margin: 0;
+    max-height: 50%;
+    max-width: 50%;
+    padding: 5%;
+}
 
 svg {
     width: 15%;
@@ -144,42 +106,38 @@ svg {
 
 .links {
     width: 50%;
-    padding-left: 20%
+    padding-left: 20%;
+    text-align: left;
 }
+
 .links h3 {
     font-size: 3vw;
 }
 
 .links ul {
     font-size: 1.5vw;
-    list-style-type: none;
     list-style: none;
-    padding-left: 0;
+    padding: 0;
 }
 
 /* Media queries */
 @media screen and (max-width: 1525px) {
 
-    .pictures {
-        width: 95%;
-        height: auto;
+    .circles {
+        flex-direction: column;
     }
 
+    .circles img {
+        max-width: 50%;
+    }
+
+    .vioDescription,
     .socials {
         width: 95%;
         height: auto;
     }
 
-    .pictures img, .socials img {
-    
-        max-height: 100%;
-        max-width: 50%;
-}
-    .circles {
-        flex-direction: column;
-    }
-
-    .pictures p {
+    .vioDescription p {
         font-size: 2.5vw;
     }
 
@@ -199,8 +157,7 @@ svg {
 }
 
 @media screen and (min-width: 3500px) {
-    .pictures p {
+    .vioDescription p {
         font-size: 1.2vw;
     }
 }
-  
