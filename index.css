@@ -8,13 +8,27 @@
 .offcanvas-header {
     padding-bottom: 0;
 }
+
+/* Main page */
+
 body {
+    background-color: #457B9D;;
+}
+.carousel {
     background-color: #22223b;
 }
 
 
 /* Welcome + text */
+
 .welcomeDesc {
-    background-color: white;
+    background-color: #22223b;
+    color: white;
 }
 
+@media screen and (min-width: 992px) {
+    .welcomeDesc {
+        background-color: white;
+        color: #22223b;
+    }
+}
