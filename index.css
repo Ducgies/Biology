@@ -29,3 +29,11 @@ body {
         color: #22223b;
     }
 }
+
+figure.text-end {
+    color: white;
+}
+
+figure .blockquote-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
