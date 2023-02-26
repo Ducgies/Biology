@@ -23,6 +23,14 @@ body {
     color: white;
 }
 
+.welcomeDesc .display-1  {
+    font-size: 6rem;
+}
+
+.welcomeDesc p  {
+    font-size: 1rem;
+}
+
 @media screen and (min-width: 992px) {
     .welcomeDesc {
         background-color: white;
@@ -34,6 +42,11 @@ figure.text-end {
     color: white;
 }
 
+figure .blockquote {
+    font-size: 2rem;
+}
+
 figure .blockquote-footer {
     color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
 }
