@@ -72,6 +72,8 @@ h2 {
 .circles img {
     max-height: 100%;
     width: 50%;
+    border-radius: 10%;
+    border: 10px solid white;
 }
 
 .socials,
