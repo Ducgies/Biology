@@ -1,0 +1,75 @@
+.navbar {
+    padding: 0;
+    background-color: #f1faee80 ;
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    background-color: #28666e;
+}
+
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.549);
+}
+
+sup a {
+    color:white;
+    text-decoration: none;
+
+}
+
+sup a:hover {
+    color:rgba(255, 255, 255, 0.513);
+}
+
+.paragraphs, .structureOfCell {
+    background-color:#7c9885 ;
+    color: white;
+    margin-top: 4%;
+}    
+
+.paragraphs p,
+.paragraphs li {
+  font-size: 20px;  
+}
+
+.structureOfCell p,
+.structureOfCell li {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.structureOfCell li {
+    margin-top: 20px;
+}
+.structureOfCell h4 {
+    color: rgba(255, 255, 255, 0.549);
+    font-weight: lighter;
+}
+
+.worksCited {
+    overflow-wrap: break-word;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #033F63;
+    padding-left: 10px;
+}
+
+.worksCited a {
+    color: #A8E0FF;
+    transition: 0.2s
+}
+
+.worksCited a:hover {
+    color: #4f6c7b;
+}
+
+.worksCited li {
+    font-size: 25px;
+    margin-top: 20px;
+}

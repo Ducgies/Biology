@@ -1,11 +1,26 @@
-    
-    
-    
-    
-    
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CellStruct.css">
+    <title>Structure of a Cell</title>
+</head>
+
+<body>
+    <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-xl">
         <div class="container-fluid">
-            <a class="navbar-brand" href= "../index.html">Viology</a>
+            <a class="navbar-brand" href="../../index.html">Viology</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -19,10 +34,10 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="About.html">About</a>
+                            <a class="nav-link" href="../../About/About.html">About</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -30,9 +45,9 @@
                                 Cell Basics
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="../index.html">Structure of a Cell</a></li>
+                                <li><a class="dropdown-item" href="CellStruct.html">Structure of a Cell</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Cell Communication</a></li>
+                                <li><a class="dropdown-item" href="CellComm.html">Cell Communication</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -41,11 +56,13 @@
                                 Evolution
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">What is Evolution?</a></li>
+                                <li><a class="dropdown-item" href="../Evolution/WhatIsEvo.html">What is Evolution?</a>
+                                </li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Natural Selection</a></li>
+                                <li><a class="dropdown-item" href="../Evolution/NaturalSel.html">Natural Selection</a>
+                                </li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Genetic Drift</a></li>
+                                <li><a class="dropdown-item" href="../Evolution/GeneDrift.html">Genetic Drift</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -54,13 +71,15 @@
                                 Genetics
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">What are Genetics?</a></li>
+                                <li><a class="dropdown-item" href="../Genetics/WhatRGenetics.html">What are
+                                        Genetics?</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Heredity</a></li>
+                                <li><a class="dropdown-item" href="../Genetics/Hereditary.html">Heredity</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Gene Expression</a></li>
+                                <li><a class="dropdown-item" href="../Genetics/GeneExpress.html">Gene Expression</a>
+                                </li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Structure of DNA</a></li>
+                                <li><a class="dropdown-item" href="../Genetics/DNAStruct.html">Structure of DNA</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -69,11 +88,12 @@
                                 Fun Animal Facts
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Cool Animals</a></li>
+                                <li><a class="dropdown-item" href="../FunAnimalFacts/CoolAnimals.html">Cool Animals</a>
+                                </li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Pet Facts</a></li>
+                                <li><a class="dropdown-item" href="../FunAnimalFacts/PetFacts.html">Pet Facts</a></li>
                                 <hr class="dropdown-divider">
-                                <li><a class="dropdown-item" href="#">Bat Facts</a></li>
+                                <li><a class="dropdown-item" href="../FunAnimalFacts/BatFacts.html">Bat Facts</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -81,3 +101,160 @@
             </div>
         </div>
     </nav>
+    <!-- Title -->
+    <h1 class="display-1 mt-5 text-center">Structure of a Cell</h1>
+    <h2 class="display-6 text-center">What Exactly is a Cell?</h2>
+    <!-- Paragraphs -->
+    <div class="paragraphs mx-5 p-2">
+        <p>
+            A cell is the smallest unit of life and contains parts called “organelles,” which are essentially structures
+            within the cell that have specialized functions.<sup><a href="#WorksCited">1</a></sup>
+        </p>
+        <p>
+            There are two main types of cells: eukaryotic and prokaryotic. Eukaryotic cells differ from prokaryotic
+            cells as they contain a nucleus around the genetic material, have membrane-bound organelles, and have
+            linearly structured DNA (prokaryotic cells have circularly structured DNA).
+        </p>
+        <ul>
+            <li>Eukaryotic cells make up multicellular (and some unicellular) organisms, such as animals, plants, fungi,
+                algae, and protozoans.</li>
+            <li>Prokaryotic cells make up unicellular organisms: bacteria and archaea.<sup><a href="#One">2</a></sup>
+            </li>
+        </ul>
+
+    </div>
+    <!-- Image of cell -->
+    <div class="structureOfCell mx-5 p-2">
+        <h3 class="display-4 text-center">Structure of Animal and Plant Cells</h3>
+        <h4 class="text-center">(Animal cells and plant cells are Eukaryotic)</h4>
+        <img src="../../Images/Animal_Cell.png" alt="Animal Cell png" class="img-fluid mx-auto d-block">
+        <p>Mitochondria: “The powerhouse of the cell.” Creates energy for the cell from glucose and other nutrients via
+            cellular respiration. <sup><a href="#Two">3</a></sup></p>
+        <p>Cytoplasm: A gelatinous liquid that helps hold the organelles in place and retains the circular shape of the
+            cell.<sup><a href="#Three">4</a></sup></p>
+        <p>Lysosome: Organelle that recycles worn-out cell parts and digests viruses/bacteria. Can also perform
+            apoptosis.<sup><a href="#Four">5</a></sup></p>
+        <p>Smooth Endoplasmic Reticulum: Creates lipids as well as stores them. Differs from the rough endoplasmic
+            reticulum as it does not have ribosomes (Rogers, "smooth endoplasmic reticulum").<sup><a
+                    href="#Five">6</a></sup></p>
+        <p>Ribosomes: Organelle that is made up of a combination of proteins and rRNA (ribosomal RNA). Creates proteins
+            for the cell through a process called “translation."<sup><a href="#Six">7</a></sup></p>
+        <p>Centriole: Complex of microtubules that help separate the chromosomes during cell division. They are also
+            responsible for the synthesis of microtubules.<sup><a href="#Seven">8</a></sup></p>
+        <p>Golgi body: Otherwise known as the Golgi apparatus, it is composed of sacs called cisternae and helps receive
+            and transport proteins using vesicles.<sup><a href="#Eight">9</a></sup></p>
+        <p>Nucleus: A spherical structure that contains the cell’s chromosomes and another organelle called the
+            nucleolus.</p>
+        <ul>
+            <li>The nucleolus is responsible for assembling ribosomes.<sup><a href="#Nine">10</a></sup></li>
+        </ul>
+        <p>Plasma Membrane: The membrane that creates the outside of the cell and separates the cell’s insides from the
+            outside environment.<sup><a href="#Ten">11</a></sup></p>
+    </div>
+    <!-- Plant Cells -->
+    <div class="paragraphs mx-5 p-2">
+        <p>Plant cells are similar to animal cells, except plant cells are rectangular and have a few different
+            organelles, such as:</p>
+        <ul>
+            <li>Chloroplasts: Are responsible for photosynthesis.<sup><a href="#Eleven">12</a></sup></li>
+            <li>Cell wall: A wall-like structure outside of the plasma membrane. Helps keep structural integrity and
+                protects the cell. It also gives plant cells their rectangular shape.<sup><a href="#Twelve">13</a></sup>
+            </li>
+        </ul>
+    </div>
+    <!-- Prokaryotic Cells -->
+    <div class="paragraphs mx-5 p-2">
+        <h3 class="display-4 text-center mb-5">Structure of a Prokaryotic Cell</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>
+                        Unlike eukaryotic cells, prokaryotic cells have no nucleus and no membrane-bound organelles.
+                        However, they
+                        have some similar cell structures, such as ribosomes, cell membranes, and cytoplasm. Some
+                        prokaryotes can
+                        even have cell walls.<sup><a href="#Thirteen">14</a></sup>
+                    </p>
+                </div>
+                <div class="col">
+                    <p>
+                        Prokaryotic cells can also have tail-like structures such as flagellum (which helps the cells
+                        move) and
+                        Pilus (used to attach to other bacteria). Some types of bacteria can also have another layer
+                        called the
+                        capsule, which helps protect the cell as well as attain its moisture.<sup><a
+                                href="#Fourteen">15</a></sup>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="worksCited mx-5 my-2 p-4">
+        <h3><a id="WorksCited">Works Cited:</a></h3>
+        <ol>
+            <li><a id="One">“What Is a Cell?” MedlinePlus, <a
+                        href="https://www.medlineplus.gov/genetics/understanding/basics/cell">medlineplus.gov/genetics/understanding/basics/cell</a>.
+                    Accessed 7 Apr. 2023.
+                </a></li>
+            <li><a id="Two">Gleichmann, Nicole. “Prokaryotes Vs Eukaryotes: What Are the Key Differences?” Technology
+                    Networks Cell
+                    Science, 8 July 2021,
+                    <a
+                        href="https://www.technologynetworks.com/cell-science/articles/prokaryotes-vs-eukaryotes-what-are-the-key-differences-336095">www.technologynetworks.com/cell-science/articles/prokaryotes-vs-eukaryotes-what-are-the-key-differences-336095</a>.
+                </a></li>
+            <li><a id="Three">“4.9: Eukaryotic Cells - Mitochondria.” LibreTexts Biology, 8 June 2022,<a
+                        href="https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/04%3A_Cell_Structure/4.09%3A_Eukaryotic_Cells_-_Mitochondria#:~:text=Mitochondria%20Function&text=Cellular%20respiration%20is%20the%20process,dioxide%20as%20a%20waste%20product">
+                        bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Book%3A_General_Biology_(Boundless)/04%3A_Cell_Structure/4.09%3A_Eukaryotic_Cells_-_Mitochondria#:~:text=Mitochondria%20Function&text=Cellular%20respiration%20is%20the%20process,dioxide%20as%20a%20waste%20product
+                    </a>.
+                </a></li>
+            <li><a id="Four">Miller, Christine. “4.5 Cytoplasm and Cytoskeleton.” Pressbooks,
+                    <a
+                        href="https://pressbooks.bccampus.ca/humanbiology053/chapter/4-5-cytoplasm-and-cytoskeleton/#:~:text=Cytoplasm%20is%20a%20thick%20solution,biochemical%20reactions%20inside%20the%20cell">pressbooks.bccampus.ca/humanbiology053/chapter/4-5-cytoplasm-and-cytoskeleton/#:~:text=Cytoplasm%20is%20a%20thick%20solution,biochemical%20reactions%20inside%20the%20cell
+                    </a>.
+                    Accessed 7 Apr. 2023.</a></li>
+            <li><a id="Five">Lifespan Extension Advocacy Foundation. “What Are Lysosomes? The Garbage Disposal System of
+                    the Cell.”
+                    Lifespan.io, 18 Aug. 2021,
+                    <a href="https://www.lifespan.io/topic/lysosomes/#:~:text=Lysosomes%20are%20the%20garbage%20disposal,destroy%20invading%20viruses%20and%20bacteria">www.lifespan.io/topic/lysosomes/#:~:text=Lysosomes%20are%20the%20garbage%20disposal,destroy%20invading%20viruses%20and%20bacteria</a>.
+                </a></li>
+            <li><a id="Six">Rogers, Kara. "smooth endoplasmic reticulum". Encyclopedia Britannica, 20 Mar. 2023,
+                    <a href="https://www.britannica.com/science/smooth-endoplasmic-reticulum">www.britannica.com/science/smooth-endoplasmic-reticulum</a>. Accessed 7 April 2023.
+                </a></li>
+            <li><a id="Seven">“What Are Ribosomes? - Definition, Structure and Its Functions.” BYJU’S,
+                    <a href="https://www.byjus.com/biology/ribosomes">byjus.com/biology/ribosomes</a>.
+                    Accessed 7 Apr. 2023.</a></li>
+            <li><a id="Eight">Andrew Rader Studios. “Biology4Kids.com: Cell Structure: Centrioles.” Biology4Kids.com,
+                    <a href="http://www.biology4kids.com/files/cell_centriole.html">www.biology4kids.com/files/cell_centriole.html</a>. Accessed 7 Apr. 2023.</a></li>
+            <li><a id="Nine">Rogers, Kara. "Golgi apparatus". Encyclopedia Britannica, 3 Jan. 2023,
+                    <a href="https://www.britannica.com/science/Golgi-apparatus">www.britannica.com/science/Golgi-apparatus</a>. Accessed 7 April 2023.
+                </a></li>
+            <li><a id="Ten">“Nucleolus - Function, Difference Between Nucleus and Nucleolus.” BYJU’S,
+                    <a href="https://byjus.com/biology/nucleolus">byjus.com/biology/nucleolus</a>.
+                    Accessed 7 Apr. 2023.</a></li>
+            <li><a id="Eleven">“Plasma Membrane (Cell Membrane).” National Human Genome Research Institute, 7 Apr. 2023,
+                    <a href="https://www.genome.gov/genetics-glossary/Plasma-Membrane">www.genome.gov/genetics-glossary/Plasma-Membrane</a>.</a></li>
+            <li><a id="Twelve">“How Do Plant and Animal Cells Differ?” Khan Academy,
+                    <a href="https://www.khanacademy.org/science/high-school-biology/hs-cells/hs-plant-vs-animal-cells/a/hs-plant-vs-animal-cells-review">www.khanacademy.org/science/high-school-biology/hs-cells/hs-plant-vs-animal-cells/a/hs-plant-vs-animal-cells-review</a>.
+                    Accessed 7 Apr. 2023.</a></li>
+            <li><a id="Thirteen">Staehelin, L. Andrew. "cell wall". Encyclopedia Britannica, 1 Feb. 2023,
+                    <a href="https://www.britannica.com/science/cell-wall-plant-anatomy">www.britannica.com/science/cell-wall-plant-anatomy</a>. Accessed 7 April 2023.
+                </a></li>
+            <li><a id="Fourteen">“The Structure of Prokaryotes.” Lumen Learning,<a href="https://courses.lumenlearning.com/suny-wmopen-biology2/chapter/the-structure-of-prokaryotes/">
+                    courses.lumenlearning.com/suny-wmopen-biology2/chapter/the-structure-of-prokaryotes</a>. Accessed 7 Apr.
+                    2023.</a></li>
+            <li><a id="Fifteen">Bailey, Regina. “What Are Prokaryotic Cells? Structure, Function, and Definition.”
+                    ThoughtCo, 30 Oct.
+                    2019, <a href="https://www.thoughtco.com/prokaryotes-meaning-373369">www.thoughtco.com/prokaryotes-meaning-373369</a>.</a></li>
+        </ol>
+    </div>
+
+    <!-- Script CDNs -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
