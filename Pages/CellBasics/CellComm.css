@@ -3,3 +3,73 @@
     background-color: #f1faee80 ;
     font-family: 'Barlow', sans-serif;
 }
+
+body {
+    background-color: #00C49A;
+}
+
+.container {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #241623;
+}
+
+.paragraphs {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.firstPart {
+    background-color: #f8e16ced; 
+    border-radius: 20px;
+}
+
+.secondPart {
+    background-color: #ff7f50e7;
+    border-radius: 20px;
+    color: #F8E16C;
+}
+
+
+
+.worksCited {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #241623;
+    color: white;
+}
+
+.worksCited li {
+    padding-top: 30px;
+}
+
+.container a {
+    color: #241623;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.paragraphs a:hover {
+    color: #ff7f50e7;
+}
+
+.secondPart a {
+    color:#F8E16C
+}
+
+.secondPart a:hover {
+    color:#f8e16c79
+}
+
+.worksCited li {
+    font-size: 1.5rem;
+}
+
+.worksCited a {
+    color: #A4A8D1;
+    transition: 0.2s;
+}
+
+.worksCited a:hover {
+    color: #EDD9A3;
+}
+
