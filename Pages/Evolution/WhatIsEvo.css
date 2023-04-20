@@ -30,7 +30,8 @@ p {
 
 }
 
-h2, li {
+.citations h2,
+.citations li {
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
