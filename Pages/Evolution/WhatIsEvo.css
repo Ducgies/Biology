@@ -1,0 +1,52 @@
+.navbar {
+    padding: 0;
+    background-color: #f1faee80 ;
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    background-color: #14213d;
+}
+
+h1, p {
+    color: #ffffff;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.col-md {
+    background-color: white;
+}
+
+.col-md  p {
+    color: black;
+}
+
+.citation {
+    font-size: 0.8rem;
+
+}
+
+h2, li {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+sup a {
+    color: white;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+sup a:hover {
+    color:#e5e5e5;
+}
+
+li a {
+    color: #119DA4;
+    text-decoration: none;
+    transition: 0.2s;
+}

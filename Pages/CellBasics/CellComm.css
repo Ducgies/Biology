@@ -8,6 +8,8 @@ body {
     background-color: #00C49A;
 }
 
+/* First paragraph/block */
+
 .container {
     font-family: 'Be Vietnam Pro', sans-serif;
     color: #241623;
@@ -23,6 +25,8 @@ body {
     border-radius: 20px;
 }
 
+/* Second paragraph/block */
+
 .secondPart {
     background-color: #ff7f50e7;
     border-radius: 20px;
@@ -30,6 +34,11 @@ body {
 }
 
 
+.secondPart a {
+    color:#F8E16C
+}
+
+/* Works Cited */
 
 .worksCited {
     font-family: 'Times New Roman', Times, serif;
@@ -48,18 +57,6 @@ body {
     transition: 0.2s;
 }
 
-.paragraphs a:hover {
-    color: #ff7f50e7;
-}
-
-.secondPart a {
-    color:#F8E16C
-}
-
-.secondPart a:hover {
-    color:#f8e16c79
-}
-
 .worksCited li {
     font-size: 1.5rem;
 }
@@ -67,6 +64,15 @@ body {
 .worksCited a {
     color: #A4A8D1;
     transition: 0.2s;
+}
+
+/* Hovering parts */
+.paragraphs a:hover {
+    color: #ff7f50e7;
+}
+
+.secondPart a:hover {
+    color:#f8e16c79
 }
 
 .worksCited a:hover {
