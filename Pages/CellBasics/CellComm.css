@@ -48,6 +48,7 @@ body {
 
 .worksCited li {
     padding-top: 30px;
+    overflow-wrap: break-word;
 }
 
 .container a {
