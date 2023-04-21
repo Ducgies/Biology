@@ -3,3 +3,71 @@
     background-color: #f1faee80 ;
     font-family: 'Barlow', sans-serif;
 }
+
+body {
+    background-color: #ccd5ae;
+}
+
+h1, p{
+    color: #272635;
+}
+
+h1 {
+    border-bottom: #272635 solid 5px;
+    width: fit-content;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.image-container {
+    background-color: #E8E9F3;
+    border: solid 5px;
+    width:max-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container a {
+    color: #7698B3;
+    transition: 0.2s;
+}
+
+.image-container a:hover {
+    color:#4d6375;
+}
+
+.credit {
+    font-size: 1rem;
+}
+
+.workscited {
+    background-color: #A6A6A8;
+    width: fit-content;
+}
+
+.workscited li {
+    font-size: 1.5rem;
+}
+
+.workscited a {
+    color: #A4243B;
+    transition: 0.2s;
+}
+
+.workscited a:hover {
+    color: #681625;
+}
+
+sup a {
+    color: #272635;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+sup a:hover {
+    color: #A6A6A8;
+}
