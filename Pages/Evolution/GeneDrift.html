@@ -11,7 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="GeneDrift.css">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="GeneDrift.css">
     <title>Genetic Drift</title>
 </head>
 
@@ -102,49 +104,90 @@
         </div>
     </nav>
     <!-- Title -->
-    <h1 class="mt-5 display-1 text-center">Genetic Drift</h1>
-    <!-- What is Genetic Drift -->
-    <div>
-        <h2>What is Genetic Drift?</h2>
-        <p>Genetic drift is the phenomenon in which there is a change in the gene pool for small populations (and only small, isolated populations) due to chance, which can cause a loss of genetic traits and can make other traits more common (Britannica). </p>
-    </div>
-    <div>
-        <h2>What Can Cause Genetic Drift?</h2>
-        <h3>There are many causes of genetic drift. According to the book Bioinformatics for Beginners: Genes, Genomes, Molecular Evolution, Supratim Choudhuri explains:</h3>
-        <blockquote class="blockquote">“Genetic drift can be caused by a number of chance phenomena, such as differential number of offspring left by different members of a population so that certain genes increase or decrease in number over generations independent of selection, sudden immigration or emigration of individuals in a population changing gene frequency in the resulting population, or population bottleneck” (page 46).</blockquote>
-    </div>
-    <div>
-        <h2>Population Bottleneck</h2>
-        <p>A population bottleneck is a type of genetic drift that happens when there is a reduction in a population, which then causes there to be less genetic variance(“Bottlenecks and Founder Effects”). This can occur due to natural disasters, such as earthquakes or volcanos (Slizewska). Current population bottlenecks can be seen in endangered species such as the Yangtze River dolphin. Population bottlenecks have occurred throughout the evolutionary history of humans as well (“Population Bottleneck”). </p>
-        <h3>Here is an illustration of how a population bottleneck works:</h3>
-        <div>
-            <img src="../../Images/Bottleneck_effect_Figure_19_02_03.jpg" alt="Bottleneck diagram">
-            <p>(“Bottleneck effect Figure 19 02 03” by OpenStax and Rice Univerity. Licensed under CC BY 4.0)</p>
+    <h1 class="mt-5 text-center display-1">Genetic Drift</h1>
+    <!-- Entire content minus the works cited -->
+    <div class="ps-2 container">
+        <!-- What is Genetic Drift -->
+        <div class="mt-5">
+            <h2 class="body-h2">What is Genetic Drift?</h2>
+            <p>Genetic drift is the phenomenon in which there is a change in the gene pool for small populations (and
+                only
+                small, isolated populations) due to chance, which can cause a loss of genetic traits and can make other
+                traits more common<sup><a href="#WorksCited">1</a></sup>.</p>
         </div>
+        <!-- What can cause genetic drift -->
+        <div>
+            <h2 class= "mt-5 body-h2">What Can Cause Genetic Drift?</h2>
+            <h3 class="mt-4">There are many causes of genetic drift. According to the book Bioinformatics for Beginners: Genes,
+                Genomes,
+                Molecular Evolution, Supratim Choudhuri explains:</h3>
+            <blockquote class="text-end my-5">“Genetic drift can be caused by a number of chance phenomena, such as
+                differential number of offspring left by different members of a population so that certain genes
+                increase or
+                decrease in number over generations independent of selection, sudden immigration or emigration of
+                individuals in a population changing gene frequency in the resulting population, or population
+                bottleneck”
+                (page 46)<sup><a href="#One">2</a></sup>.</blockquote>
+        </div>
+        <!-- Pop bottleneck -->
+        <div class="popbot mt-5">
+            <h2 class="body-h2">Population Bottleneck</h2>
+            <p>A population bottleneck is a type of genetic drift that happens when there is a reduction in a
+                population,
+                which then causes there to be less genetic variance<sup><a href="#Two">3</a></sup>. This can occur
+                due
+                to natural disasters, such as earthquakes or volcanos<sup><a href="#Three">4</a></sup>. Current population bottlenecks can be
+                seen in endangered species such as the Yangtze River dolphin. Population bottlenecks have occurred
+                throughout the evolutionary history of humans as well<sup><a href="#Four">5</a></sup>. </p>
+            <div class="d-flex flex-column align-items-center my-5">
+                <h3>Here is an illustration of how a population bottleneck works:</h3>
+                <img src="../../Images/Bottleneck_effect_Figure_19_02_03.jpg" alt="Bottleneck diagram" class="img-fluid mx-auto">
+                <p class="credit text-center">(“<a href="https://commons.wikimedia.org/wiki/File:Bottleneck_effect_Figure_19_02_03.jpg">Bottleneck effect Figure 19 02 03</a>” by <a href="https://openstax.org/books/biology-ap-courses/pages/19-2-population-genetics">OpenStax and Rice Univerity</a>. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>/resized from original)</p>
+            </div>
 
-    </div>
-    <div>
-        <h2>Founder Effect</h2>
-        <p>The founder effect is another type of genetic drift in which a small number of individuals that migrate or occupy a new habitat can then have different allele frequencies within the new population. This in turn makes it so that there are traits that will be more common in the new group’s gene pool. The figure below illustrates how it works:</p>
-        <div>
-            <img src="../../Images/Founder_effect_with_drift.jpg" alt="Founder effect diagram">
-            <p>(“Founder effect with drift” by Professor marginalia. Licensed under CC BY-SA 3.0)</p>
+
         </div>
-        <p>Fruit flies are an example of the founder effect. According to the book Biology by Kenneth R. Miller and Joseph S. Levine:</p>
-        <blockquote class="blockquote">“One example of the founder effect is the evolution of several hundred species of fruit flies on different Hawaiian islands. All those species descended from the same mainland fruit fly population. However, species on different islands have allele frequencies that are different from those of the original species” (page 836).</blockquote>
+        <!-- Founder Effect -->
+        <div class="founder-effect mt-5">
+            <h2 class="body-h2">Founder Effect</h2>
+            <p>The founder effect is another type of genetic drift in which a small number of individuals that migrate
+                or
+                occupy a new habitat can then have different allele frequencies within the new population. This in turn
+                makes it so that there are traits that will be more common in the new group’s gene pool. The figure
+                below
+                illustrates how it works:</p>
+            <div>
+                <img src="../../Images/Founder_effect_with_drift.jpg" alt="Founder effect diagram" class="img-fluid">
+                <p class="credit text-center">(“<a href="https://commons.wikimedia.org/wiki/File:Founder_effect_with_drift.jpg">Founder effect with drift</a>” by Professor marginalia. Licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>/resized from original)</p>
+            </div>
+            <p>Fruit flies are an example of the founder effect. According to the book Biology by Kenneth R. Miller and
+                Joseph S. Levine:</p>
+            <blockquote class="text-end my-5">“One example of the founder effect is the evolution of several hundred
+                species of
+                fruit flies on different Hawaiian islands. All those species descended from the same mainland fruit fly
+                population. However, species on different islands have allele frequencies that are different from those
+                of
+                the original species” (page 836)<sup><a href="#Five">6</a></sup>.</blockquote>
+        </div>
     </div>
-    <div>
-    <h2>Works Cited</h2>
-    <ol>
-        <li>Britannica, The Editors of Encyclopaedia. "genetic drift". Encyclopedia Britannica, 3 Jan. 2020, 
-            https://www.britannica.com/science/genetic-drift. Accessed 16 April 2023.
-            </li>
-        <li>Choudhuri, Supratim. Bioinformatics for Beginners: Genes, Genomes, Molecular Evolution, Databases and Analytical Tools. Academic Press, 2014.</li>
-        <li>“Bottlenecks and Founder Effects.” Understanding Evolution, evolution.berkeley.edu/bottlenecks-and-founder-effects. Accessed 16 Apr. 2023.</li>
-        <li>Slizewska, Gabi. “Causes of Bottlenecking.” Expii, www.expii.com/t/what-is-the-bottleneck-effect-definition-examples-10503. Accessed 16 Apr. 2023.</li>
-        <li>“Population Bottleneck.” Encyclopedia.com, www.encyclopedia.com/medicine/medical-magazines/population-bottleneck. Accessed 16 Apr. 2023.</li>
-        <li>Miller, Kenneth R., and Joseph S. Levine. Biology. E-book, Pearson Education Inc., 2012.</li>
-    </ol>
+
+    <!-- Works Cited -->
+    <div class="ps-2">
+        <h2 class="body-h2"><a id="WorksCited">Works Cited</a></h2>
+        <ol class="ms-3 p-0">
+            <li><a id="One">Britannica, The Editors of Encyclopaedia. "genetic drift". Encyclopedia Britannica, 3 Jan. 2020,
+                <a href="https://www.britannica.com/science/genetic-drift">https://www.britannica.com/science/genetic-drift</a>. Accessed 16 April 2023.
+            </a></li>
+            <li><a id="Two">Choudhuri, Supratim. Bioinformatics for Beginners: Genes, Genomes, Molecular Evolution, Databases and
+                Analytical Tools. Academic Press, 2014.</a></li>
+            <li><a id="Three">“Bottlenecks and Founder Effects.” Understanding Evolution,
+                <a href="https://evolution.berkeley.edu/bottlenecks-and-founder-effects/">evolution.berkeley.edu/bottlenecks-and-founder-effects</a>. Accessed 16 Apr. 2023.</a></li>
+            <li><a id="Four">Slizewska, Gabi. “Causes of Bottlenecking.” Expii,
+                <a href="https://www.expii.com/t/what-is-the-bottleneck-effect-definition-examples-10503">www.expii.com/t/what-is-the-bottleneck-effect-definition-examples-10503</a>. Accessed 16 Apr. 2023.</a></li>
+            <li><a id="Five">“Population Bottleneck.” Encyclopedia.com,
+                <a href="https://www.encyclopedia.com/medicine/medical-magazines/population-bottleneck">www.encyclopedia.com/medicine/medical-magazines/population-bottleneck</a>. Accessed 16 Apr. 2023.</a></li>
+            <li>Miller, Kenneth R., and Joseph S. Levine. Biology. E-book, Pearson Education Inc., 2012.</li>
+        </ol>
     </div>
     <!-- Script CDNs -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

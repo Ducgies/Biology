@@ -1,5 +1,78 @@
 .navbar {
     padding: 0;
-    background-color: #f1faee80 ;
+    background-color: #f1faee80;
     font-family: 'Barlow', sans-serif;
+}
+
+body {
+    background-color: #FFFBBD;
+}
+
+blockquote {
+    font-family: 'Instrument Serif', serif;
+    font-size: 1.6rem;
+    color: #1D1A05;
+}
+
+
+p,
+h1,
+.body-h2,
+h3,
+sup a {
+    font-family: 'Oxygen', sans-serif;
+    color: #1D1A05;
+}
+
+h1,
+.body-h2,
+h3 {
+    font-weight: bold;
+}
+
+.popbot {
+    background-color: #E6AA68;
+    border-radius: 15px;
+    padding: 10px
+}
+
+.founder-effect {
+    background-color: #7FB069;
+    border-radius: 15px;
+    padding: 10px
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.credit {
+    font-size: 1rem;
+}
+
+
+
+li {
+    color: #1D1A05;
+}
+
+sup a {
+    color: #1D1A05;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+sup a:hover {
+    color: #747C92;
+    text-decoration: none;
+}
+
+.credit a {
+    color: #6369D1;
+    transition: 0.2s;
+}
+
+.credit a:hover {
+    color: #747C92;
 }
