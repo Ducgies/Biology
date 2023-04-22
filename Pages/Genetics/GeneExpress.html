@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="GeneExpress.css">
+    <title>Gene Expression</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-xl">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html">Viology</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Index</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../About/About.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Cell Basics
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../CellBasics/CellStruct.html">Structure of a
+                                        Cell</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="../CellBasics/CellComm.html">Cell Communication</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Evolution
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../Evolution/WhatIsEvo.html">What is Evolution?</a>
+                                </li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="../Evolution/NaturalSel.html">Natural Selection</a>
+                                </li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="../Evolution/GeneDrift.html">Genetic Drift</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Genetics
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./WhatRGenetics.html">What are
+                                        Genetics?</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="./Hereditary.html">Heredity</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="./GeneExpress.html">Gene Expression</a>
+                                </li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="./DNAStruct.html">Structure of DNA</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Fun Animal Facts
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../FunAnimalFacts/CoolAnimals.html">Cool Animals</a>
+                                </li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="../FunAnimalFacts/PetFacts.html">Pet Facts</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="../FunAnimalFacts/BatFacts.html">Bat Facts</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- What is DNA -->
+        <h1>Gene Expression</h1>
+        <h2>What is DNA?</h2>
+        <article>
+            <p>DNA (deoxyribonucleic acid) is what makes up our genes. It is a thread-like structure composed of
+                multiple bases called “nucleotides” and has the shape of a “double-helix.” How our DNA is programmed
+                allows us to have different traits, as different sequences within the DNA code for different
+                proteins to be made, thus giving us our physical traits<sup><a href="#WorksCited">1</a></sup>.
+            </p>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="../../Images/dna-gd104b876d_1280.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">(Picture by <a href="https://pixabay.com/users/furiosa-l-17881756/">Furiosa-L</a>, derived from <a href="https://pixabay.com/illustrations/dna-genetics-molecule-biology-5695421/">Pixabay</a>)</p>
+                </div>
+            </div>
+        </article>
+        <!-- Alleles -->
+        <h2>Alleles</h2>
+        <article>
+            <p>Alleles are different types of genes that have slight differences. They can be considered either
+                “recessive” or “dominant.”</p>
+            <p>The words “recessive” and “dominant” mean that the phenotype (physical trait) of a recessive allele
+                can be hidden if it is paired with a “dominant” allele. However, if there is no dominant allele
+                present, the phenotype of the recessive alleles are expressed<sup><a href="#One">2</a></sup>. </p>
+            <p>One example of this are blood types. A and B blood types have dominant alleles over O blood types<sup><a href="#Two">3</a></sup>.</p>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="../../Images/Genotypes_and_Phenotypes.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">(“<a href="https://commons.wikimedia.org/wiki/File:Genotypes_and_Phenotypes.png">Genotypes and Phenotypes</a>” by <a href="https://commons.wikimedia.org/wiki/User:SadiesBurrow">SadiesBurrow</a>. Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+                        4.0</a>/resized from original)</p>
+                </div>
+            </div>
+        </article>
+        <!-- Punnet Squares -->
+        <h2>Punnet Squares</h2>
+        <article>
+            <p>
+                One way to determine the chances of the genotype an offspring will have is through Punnet squares.
+                Their format may be 2x2, 4x4, and more<sup><a href="#Three">4</a></sup>. Here is an example of a 2x2 version:
+            </p>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="../../Images/1920px-Punnett_square_mendel_flowers.png"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">(“<a href="https://commons.wikimedia.org/wiki/File:Punnett_square_mendel_flowers.svg">Punnett square mendel flowers</a>” by <a href="https://en.wikipedia.org/wiki/User:Mad_Price_Ball">Madprime</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0</a>)</p>
+                </div>
+            </div>
+        </article>
+        <!-- Forms of Inheritance -->
+        <h3>There are many forms of inheritance, which include: Codominance, Incomplete dominance, and multiple
+            alleles.</h3>
+        <article>
+            <p>Sometimes phenotypes aren't always expressed by only one dominant allele or two recessive alleles.
+                Sometimes a mix of two dominant alleles can be expressed, or a gene can have more than two alleles.
+            </p>
+            <p>Multiple Alleles: When there are more than two alleles that code for a gene. An example of this is
+                blood type, with there being IA, IB, and I (two Is result in an O blood type)<sup><a href="#Four">5</a></sup>. </p>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="../../Images/ABO_Blood_Group_Phenotypes.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">(“<a href="https://commons.wikimedia.org/wiki/File:ABO_Blood_Group_Phenotypes.jpg">ABO Blood Group Phenotypes</a>” by Maliayee. Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>/resized
+                        from original)</p>
+                </div>
+            </div>
+            <p>Codominance: Situation in which two alleles are expressed phenotypically by an equal degree. An example
+                of this are roan cows, which are spotted (as pictured below)<sup><a href="#Five">6</a></sup>.</p>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="../../Images/1920px-Co-dominance_in_Roan_Cattle.png"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">(“<a href="https://commons.wikimedia.org/wiki/File:Co-dominance_in_Roan_Cattle.svg">Co-dominance in Roan Cattle</a>” by Hhughes15. Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+                        4.0</a>/resized from original and turned into png)</p>
+                </div>
+            </div>
+            <p>Incomplete Dominance: Phenomenon in which one allele does not completely hide the other allele. The
+                result is like a blend of the two. Incomplete dominance is different than codominance because of how in
+                codominance both alleles are expressed and are not blended<sup><a href="#Six">7</a></sup>. The image below is
+                an example of incomplete dominance.</p>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="../../Images/1920px-Incomplete_dominance.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">(“<a href="https://commons.wikimedia.org/wiki/File:Incomplete_dominance.svg">Incomplete dominance</a>” by Spencerbaron. Licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>/resized
+                        from original and turned into png)</p>
+                </div>
+            </div>
+        </article>
+    </main>
+    <!-- Works Cited -->
+    <footer>
+        <h2><a id="WorksCited">Works Cited</h2>
+        <ol>
+            <li><a id="One">“DNA, Genes and Chromosomes Overview.” Cleveland Clinic, 20 May 2022, <a href="https://my.clevelandclinic.org/health/body/23064-dna-genes--chromosomes">my.clevelandclinic.org/health/body/23064-dna-genes--chromosomes</a>.</li>
+            <li><a id="Two">Britannica, The Editors of Encyclopaedia. "allele". Encyclopedia Britannica, 31 Oct. 2021, 
+                <a href="https://www.britannica.com/science/allele">https://www.britannica.com/science/allele</a>. Accessed 9 April 2023.
+                </a></li>
+            <li><a id="Three">Bhakta, Keta, and Amanda Robb. “Blood Type Genetics.” Study.com, 4 Sept. 2021, <a href="https://study.com/academy/lesson/blood-type-genetics.html">study.com/academy/lesson/blood-type-genetics.html</a>.</a></li>
+            <li><a id="Four">BD Editors. “Punnett Square.” Biology Dictionary, 4 Oct. 2019, <a href="https://biologydictionary.net/punnett-square/">biologydictionary.net/punnett-square</a>.</a></li>
+            <li><a id="Five">Bernasconi, Andrea "Multiple Alleles ." Genetics. Encyclopedia.com. 20 Mar. 2023 <a href="https://www.encyclopedia.com/science-and-technology/biology-and-genetics/genetics-and-genetic-engineering/multiple-alleles">www.encyclopedia.com/science-and-technology/biology-and-genetics/genetics-and-genetic-engineering/multiple-alleles</a>.</a></li>
+            <li><a id="Six">Britannica. "codominance". Encyclopedia Britannica, 17 Jun. 2020, 
+                <a href="https://www.britannica.com/science/codominance">www.britannica.com/science/codominance</a>. Accessed 10 April 2023.
+                </a></li>
+            <li>MooMooMath and Science. “Genetics Basics: Difference Between Codominance and Incomplete Dominance.” YouTube, 14 Oct. 2017, <a href="https://www.youtube.com/watch?v=VG0Ktdpj7Rg">www.youtube.com/watch?v=VG0Ktdpj7Rg</a>.</li>
+        </ol>
+    </footer>
+    <!-- Script CDNs -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
