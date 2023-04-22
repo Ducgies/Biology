@@ -3,3 +3,40 @@
     background-color: #f1faee80;
     font-family: 'Barlow', sans-serif;
 }
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #2C2A4A;    
+    min-height: 100%;
+}
+
+.entire-content {
+    width: 100vw;
+    height: 100vh;
+}
+
+.paragraphs {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h1, p, .workscited h2, li {
+    color: #DABFFF;
+}
+p {
+    font-size: 2.5rem;
+
+}
+
+sup a, .workscited a {
+    color: #7FDEFF;
+    text-decoration: none;
+    transition: 0.2s
+}
+
+sup a:hover, .workscited a:hover {
+    color: #4F518C;
+}
