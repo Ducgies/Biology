@@ -1,6 +1,32 @@
+
+
+body {
+    height: 100vh;
+    background-color: #7D84B2;
+}
+
+.allcontent {
+    height: 100vh
+}
+
+p {
+    font-size: 2rem;
+    text-align: left;
+}
+
+
+
 .navbar {
     padding: 0;
     background-color: #f1faee80;
     font-family: 'Barlow', sans-serif;
 }
 
+.container {
+    background-color: #8FA6CB;
+    border-radius: 0.375rem;
+}
+
+footer {
+    background-color: #D5F9DE;
+}
