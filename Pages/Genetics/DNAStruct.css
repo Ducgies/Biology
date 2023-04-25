@@ -1,0 +1,48 @@
+.navbar {
+    padding: 0;
+    background-color: #f1faee80;
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    background-color: #474747;
+}
+.allcontent {
+    height: 100vh;
+    color: #faf6f5
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+p.card-text {
+    font-size: 1rem;
+}
+
+.display-1 {
+    width: fit-content;
+    border: solid #faf6f5 0.1rem;
+    border-radius: 0.5rem;
+}
+
+.card-text, .WC {
+    color: #474747;
+}
+
+.WC {
+    background-color: #00A5CF;
+    width: 100%
+}
+
+.WC a, .WC h2, sup a {
+    color: #faf6f5;
+}
+
+.WC a:hover {
+    color: var(--bs-link-color)
+}
+
+sup a {
+    text-decoration: none;
+}

@@ -20,8 +20,9 @@ article p {
     font-size: 1rem;
 }
 
-footer {
+.WC {
     background-color: #275DAD;
+    width: 100%
 }
 footer li, footer a, footer h2 {
     color: #FCF7F8;
