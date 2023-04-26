@@ -1,0 +1,13 @@
+.navbar {
+    padding: 0;
+    background-color: #f1faee80 ;
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    background-color: #FAC9B8;
+}
+
+.allcontent {
+    height: 100vh;
+}

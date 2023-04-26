@@ -1,0 +1,50 @@
+.navbar {
+    padding: 0;
+    background-color: #f1faee80 ;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.allcontent {
+    height: 100vh;
+}
+
+article {
+    padding-bottom: 20px;
+}
+
+article:nth-of-type(1) {
+   background-color: #7C8483;
+}
+article:nth-of-type(2) {
+    background-color: #F4F7BE;
+}
+article:nth-of-type(3) {
+    background-color: #2A2A72;
+    color: white;
+}
+article:nth-of-type(4) {
+    background-color: #EAF6FF;
+}
+article:nth-of-type(5) {
+    background-color: #232528;
+    color: white;
+}
+
+.card p {
+    color:black;
+}
+
+sup a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+sup a:hover {
+    color:blue;
+}
+
+a.white {
+    color: white
+}
